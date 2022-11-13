@@ -58,7 +58,7 @@ $rdiv = intval($data['global']['rank']['rankDiv']);
 	 
 $rank = _getJSON('https://api.mozambiquehe.re/bridge?&auth=46cf15635e393ef08e5fcd7719a6a2df&player=shJazz_ttv&platform=PC');
         
-echo " $player Apex Rank: " . $rank['global']['rank']['rankName'] . " " . romanize($rdiv) .  " 「" . $rank['global']['rank']['rankScore'] . "ᴿᴾ」";
+echo "Apex Rank: " . $rank['global']['rank']['rankName'] . " " . romanize($rdiv) .  " 「" . $rank['global']['rank']['rankScore'] . "ᴿᴾ」";
 
     // More Explained Rank info output
     // echo "Apex Rank: ".$result['global']['rank']['rankName']." ".$result['global']['rank']['rankDiv']." ";
