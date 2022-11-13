@@ -1,1 +1,1 @@
-web: gunicorn python apexstats
+web: gunicorn gettingstarted.wsgi
